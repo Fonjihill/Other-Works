@@ -7,7 +7,7 @@ const Intro = () => {
             <div className="i-left">
                 <div className="i-left-wrapper">
                     <h2 className="i-intro">Hello, My name is</h2>
-                    <h2 className="i-name">Fonji Terence</h2>
+                    <h2 className="i-name">Fonji Terence, I'm</h2>
                     <div className="i-title">
                         <div className="i-title-wrapper">
                             <div className="i-title-item">Web Developer</div>
@@ -16,9 +16,10 @@ const Intro = () => {
                             <div className="i-title-item">Youtuber</div>
                         </div>
                     </div>
-                    <div className="i-desc">
-                        I design and develop services for customers of all size, specializing in creating stylish, modern websites, UX/UI Design, Flyers and more other else.
-                    
+                   
+
+                    <div> 
+                       <a href="https://github.com/Fonjihill?tab=repositories"><button className='i-btn'>My GitHub</button></a> 
                     </div>
                 </div>
             
