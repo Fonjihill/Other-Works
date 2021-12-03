@@ -1,7 +1,7 @@
 import './card.css'
 
 
-const Card = () => {
+const Card = ({img, link}) => {
     return (
         <div className='c'>
             <div className='c-browser'>
@@ -10,6 +10,11 @@ const Card = () => {
                 <div className='c-circle'></div>
                 
             </div>
+            <a href={link} target="_blank" rel="noreferrer">
+                <img scr={img} alt="" className='c-img'/>
+            </a>
+
+          
         </div>
     )
 }
