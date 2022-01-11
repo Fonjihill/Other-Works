@@ -131,3 +131,23 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+@media screen and (max-width: 480px) {
+  .i {
+    flex-direction: column;
+  }
+
+  .i-left-wrapper {
+  
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .i-desc{
+    display: none;
+  }
+  
+}
